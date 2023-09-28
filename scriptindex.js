@@ -1,5 +1,6 @@
 var contatos = []
 var contatos = JSON.parse(localStorage.getItem("contato"))
+//Por estar utilizando LocalStorage o primeiro item do array tem que ser salvo manualmente para depois puxar o array pela linha var contatos = JSON.parse(localStorage.getItem("contato"))
 console.log(contatos.length)
 
 function BotaoConfirma(){
